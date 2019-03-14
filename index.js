@@ -1,5 +1,13 @@
-//This is a bare bones server to listen for POSTs & GETs to a certain port number.
-//Note: Run "npm install" and "npm install --save body-parser" before use.
+/************************************************************************************************
+* Name: Simple REST Test Server
+* Author: Matt Nutsch
+* Date: 3-14-2019
+* Description: This is a bare bones server to listen for POSTs & GETs at a certain port number.
+* Run "npm install" from the command line before use. 
+* Run "node index.js" to start the server.
+* Send REST messages to your server at port 3000 (usually http://localhost:3000).
+*
+************************************************************************************************/
 
 const express = require('express');
 const bodyParser = require('body-parser');
